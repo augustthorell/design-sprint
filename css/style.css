@@ -33,6 +33,8 @@ h3 {
 }
 p {
     font-size: 20px;
+    text-align: justify;
+   
 }
 button {
     outline: none;
@@ -176,15 +178,10 @@ button {
     right: 10px;
 }
 
-
-
-
-
-
 /*** START PAGE ***/
 
 .start-text {
-    grid-column: 6 / span 5;
+    grid-column: 7 / span 4;
     margin: auto auto 0;
     grid-row: 1;
 }
@@ -199,7 +196,7 @@ button {
     height: 200px;
 }
 .intro-text {
-    grid-column: 6 / span 5;
+    grid-column: 7 / span 4;
     margin: 0 auto;
     grid-row: 2;
 }
@@ -210,27 +207,27 @@ button {
 
 /*** About ***/
 .title-about {
-    grid-column: 1 / span 5;
+    grid-column: 1 / span 4;
     margin: auto auto 0;
     grid-row: 1;
 }
 .about-slogan {
-    grid-column: 6 / span 5;
+    grid-column: 6 / span 4;
     grid-row: 2;
     
 }
 .about-body-text {
-    grid-column: 1 / span 5;
+    grid-column: 1 / span 4;
     margin: auto;
     grid-row: 2;
 }
 .about-services {
-    grid-column: 6 / span 5;
+    grid-column: 7 / span 4;
     margin: auto;
     grid-row: 3;
 }
 .services-body-text {
-    grid-column: 6 / span 5;
+    grid-column: 7 / span 4;
     margin: auto;
     grid-row: 4;
 }
